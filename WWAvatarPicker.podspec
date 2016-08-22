@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WWAvatarPicker"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A compute for pick avatar"
 
   s.description  = <<-DESC
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/waiwaib/WWAvatarPicker.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/waiwaib/WWAvatarPicker.git", :tag => "1.0.1" }
 
   s.source_files  = "WWAvatarPicker/imagePicker/*"
   
   s.frameworks = "Foundation","UIKit"
 
-  s.dependency = 'MBProgressHUD'
+  s.dependency  'MBProgressHUD'
 
   s.requires_arc = true
   

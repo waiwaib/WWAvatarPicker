@@ -8,7 +8,7 @@
 //
 //  a class to manager image picker;
 
-#import "RSKImageCropper/RSKImageCropper.h"
+#import "RSKImageCropper.h"
 #import <Foundation/Foundation.h>
 
 @protocol WWAvatarPickerDelegate
