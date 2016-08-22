@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WWAvatarPicker"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A compute for pick avatar"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/waiwaib/WWAvatarPicker.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/waiwaib/WWAvatarPicker.git", :tag => "1.0.3" }
 
   s.source_files  = "WWAvatarPicker/imagePicker/*"
   
