@@ -13,9 +13,20 @@
 		33141BC21D6A90D800F69D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33141BC01D6A90D800F69D54 /* Main.storyboard */; };
 		33141BC41D6A90D800F69D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33141BC31D6A90D800F69D54 /* Assets.xcassets */; };
 		33141BC71D6A90D800F69D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33141BC51D6A90D800F69D54 /* LaunchScreen.storyboard */; };
+		33141BE41D6A92A900F69D54 /* WWAvatarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BD01D6A92A900F69D54 /* WWAvatarPicker.m */; };
+		33141BE51D6A92A900F69D54 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BD31D6A92A900F69D54 /* CGGeometry+RSKImageCropper.m */; };
+		33141BE61D6A92A900F69D54 /* RSKImageCropperStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33141BD61D6A92A900F69D54 /* RSKImageCropperStrings.bundle */; };
+		33141BE71D6A92A900F69D54 /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BD91D6A92A900F69D54 /* RSKImageCropViewController.m */; };
+		33141BE81D6A92A900F69D54 /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BDB1D6A92A900F69D54 /* RSKImageScrollView.m */; };
+		33141BE91D6A92A900F69D54 /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BDD1D6A92A900F69D54 /* RSKInternalUtility.m */; };
+		33141BEA1D6A92A900F69D54 /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BDF1D6A92A900F69D54 /* RSKTouchView.m */; };
+		33141BEB1D6A92A900F69D54 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BE11D6A92A900F69D54 /* UIApplication+RSKImageCropper.m */; };
+		33141BEC1D6A92A900F69D54 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 33141BE31D6A92A900F69D54 /* UIImage+RSKImageCropper.m */; };
+		43FDE77B9B2793E165195B92 /* libPods-WWAvatarPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B090D47B4EB684468C046D /* libPods-WWAvatarPicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B090D47B4EB684468C046D /* libPods-WWAvatarPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWAvatarPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33141BB41D6A90D800F69D54 /* WWAvatarPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWAvatarPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33141BB81D6A90D800F69D54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33141BBA1D6A90D800F69D54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,28 @@
 		33141BC31D6A90D800F69D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33141BC61D6A90D800F69D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33141BC81D6A90D800F69D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33141BCF1D6A92A900F69D54 /* WWAvatarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWAvatarPicker.h; sourceTree = "<group>"; };
+		33141BD01D6A92A900F69D54 /* WWAvatarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWAvatarPicker.m; sourceTree = "<group>"; };
+		33141BD21D6A92A900F69D54 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
+		33141BD31D6A92A900F69D54 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
+		33141BD41D6A92A900F69D54 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		33141BD51D6A92A900F69D54 /* RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropper.h; sourceTree = "<group>"; };
+		33141BD61D6A92A900F69D54 /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
+		33141BD71D6A92A900F69D54 /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
+		33141BD81D6A92A900F69D54 /* RSKImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropViewController.h; sourceTree = "<group>"; };
+		33141BD91D6A92A900F69D54 /* RSKImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageCropViewController.m; sourceTree = "<group>"; };
+		33141BDA1D6A92A900F69D54 /* RSKImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageScrollView.h; sourceTree = "<group>"; };
+		33141BDB1D6A92A900F69D54 /* RSKImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageScrollView.m; sourceTree = "<group>"; };
+		33141BDC1D6A92A900F69D54 /* RSKInternalUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKInternalUtility.h; sourceTree = "<group>"; };
+		33141BDD1D6A92A900F69D54 /* RSKInternalUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKInternalUtility.m; sourceTree = "<group>"; };
+		33141BDE1D6A92A900F69D54 /* RSKTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKTouchView.h; sourceTree = "<group>"; };
+		33141BDF1D6A92A900F69D54 /* RSKTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKTouchView.m; sourceTree = "<group>"; };
+		33141BE01D6A92A900F69D54 /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
+		33141BE11D6A92A900F69D54 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
+		33141BE21D6A92A900F69D54 /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
+		33141BE31D6A92A900F69D54 /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
+		A6392CEDCEA04429B26238BE /* Pods-WWAvatarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWAvatarPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWAvatarPicker/Pods-WWAvatarPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		D872D8B46929E0AF5588BC6A /* Pods-WWAvatarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWAvatarPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWAvatarPicker/Pods-WWAvatarPicker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FDE77B9B2793E165195B92 /* libPods-WWAvatarPicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +78,8 @@
 			children = (
 				33141BB61D6A90D800F69D54 /* WWAvatarPicker */,
 				33141BB51D6A90D800F69D54 /* Products */,
+				B59FC32CE9D69119AE700607 /* Pods */,
+				C557FF4082EE43072FAA8792 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +94,7 @@
 		33141BB61D6A90D800F69D54 /* WWAvatarPicker */ = {
 			isa = PBXGroup;
 			children = (
+				33141BCE1D6A92A900F69D54 /* imagePicker */,
 				33141BBA1D6A90D800F69D54 /* AppDelegate.h */,
 				33141BBB1D6A90D800F69D54 /* AppDelegate.m */,
 				33141BBD1D6A90D800F69D54 /* ViewController.h */,
@@ -79,6 +116,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		33141BCE1D6A92A900F69D54 /* imagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				33141BCF1D6A92A900F69D54 /* WWAvatarPicker.h */,
+				33141BD01D6A92A900F69D54 /* WWAvatarPicker.m */,
+				33141BD11D6A92A900F69D54 /* RSKImageCropper */,
+			);
+			path = imagePicker;
+			sourceTree = "<group>";
+		};
+		33141BD11D6A92A900F69D54 /* RSKImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				33141BD21D6A92A900F69D54 /* CGGeometry+RSKImageCropper.h */,
+				33141BD31D6A92A900F69D54 /* CGGeometry+RSKImageCropper.m */,
+				33141BD41D6A92A900F69D54 /* module.modulemap */,
+				33141BD51D6A92A900F69D54 /* RSKImageCropper.h */,
+				33141BD61D6A92A900F69D54 /* RSKImageCropperStrings.bundle */,
+				33141BD71D6A92A900F69D54 /* RSKImageCropViewController+Protected.h */,
+				33141BD81D6A92A900F69D54 /* RSKImageCropViewController.h */,
+				33141BD91D6A92A900F69D54 /* RSKImageCropViewController.m */,
+				33141BDA1D6A92A900F69D54 /* RSKImageScrollView.h */,
+				33141BDB1D6A92A900F69D54 /* RSKImageScrollView.m */,
+				33141BDC1D6A92A900F69D54 /* RSKInternalUtility.h */,
+				33141BDD1D6A92A900F69D54 /* RSKInternalUtility.m */,
+				33141BDE1D6A92A900F69D54 /* RSKTouchView.h */,
+				33141BDF1D6A92A900F69D54 /* RSKTouchView.m */,
+				33141BE01D6A92A900F69D54 /* UIApplication+RSKImageCropper.h */,
+				33141BE11D6A92A900F69D54 /* UIApplication+RSKImageCropper.m */,
+				33141BE21D6A92A900F69D54 /* UIImage+RSKImageCropper.h */,
+				33141BE31D6A92A900F69D54 /* UIImage+RSKImageCropper.m */,
+			);
+			path = RSKImageCropper;
+			sourceTree = "<group>";
+		};
+		B59FC32CE9D69119AE700607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6392CEDCEA04429B26238BE /* Pods-WWAvatarPicker.debug.xcconfig */,
+				D872D8B46929E0AF5588BC6A /* Pods-WWAvatarPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C557FF4082EE43072FAA8792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01B090D47B4EB684468C046D /* libPods-WWAvatarPicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33141BCB1D6A90D800F69D54 /* Build configuration list for PBXNativeTarget "WWAvatarPicker" */;
 			buildPhases = (
+				F436210312D159E53935D448 /* [CP] Check Pods Manifest.lock */,
 				33141BB01D6A90D800F69D54 /* Sources */,
 				33141BB11D6A90D800F69D54 /* Frameworks */,
 				33141BB21D6A90D800F69D54 /* Resources */,
+				2817E656C7892B5409532957 /* [CP] Embed Pods Frameworks */,
+				015226EA78AD367B5C0BC6A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33141BC71D6A90D800F69D54 /* LaunchScreen.storyboard in Resources */,
+				33141BE61D6A92A900F69D54 /* RSKImageCropperStrings.bundle in Resources */,
 				33141BC41D6A90D800F69D54 /* Assets.xcassets in Resources */,
 				33141BC21D6A90D800F69D54 /* Main.storyboard in Resources */,
 			);
@@ -144,14 +237,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		015226EA78AD367B5C0BC6A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWAvatarPicker/Pods-WWAvatarPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2817E656C7892B5409532957 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWAvatarPicker/Pods-WWAvatarPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F436210312D159E53935D448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33141BB01D6A90D800F69D54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33141BE91D6A92A900F69D54 /* RSKInternalUtility.m in Sources */,
+				33141BE41D6A92A900F69D54 /* WWAvatarPicker.m in Sources */,
+				33141BE81D6A92A900F69D54 /* RSKImageScrollView.m in Sources */,
+				33141BE51D6A92A900F69D54 /* CGGeometry+RSKImageCropper.m in Sources */,
 				33141BBF1D6A90D800F69D54 /* ViewController.m in Sources */,
+				33141BEB1D6A92A900F69D54 /* UIApplication+RSKImageCropper.m in Sources */,
+				33141BE71D6A92A900F69D54 /* RSKImageCropViewController.m in Sources */,
+				33141BEA1D6A92A900F69D54 /* RSKTouchView.m in Sources */,
 				33141BBC1D6A90D800F69D54 /* AppDelegate.m in Sources */,
 				33141BB91D6A90D800F69D54 /* main.m in Sources */,
+				33141BEC1D6A92A900F69D54 /* UIImage+RSKImageCropper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,23 +410,31 @@
 		};
 		33141BCC1D6A90D800F69D54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6392CEDCEA04429B26238BE /* Pods-WWAvatarPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WWAvatarPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waiwai.WWAvatarPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		33141BCD1D6A90D800F69D54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D872D8B46929E0AF5588BC6A /* Pods-WWAvatarPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WWAvatarPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waiwai.WWAvatarPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +457,7 @@
 				33141BCD1D6A90D800F69D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
