@@ -220,7 +220,7 @@
     AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
     if (authStatus == AVAuthorizationStatusRestricted || authStatus ==AVAuthorizationStatusDenied)
     {
-        UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"请开启相机权限" message:@"格格快递需要访问相机" delegate:self cancelButtonTitle:@"暂时不" otherButtonTitles:@"去开启", nil];
+        UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"请开启相机权限" message:@"应用需要访问相机" delegate:self cancelButtonTitle:@"暂时不" otherButtonTitles:@"去开启", nil];
         [alert show];
         return NO;
     }
