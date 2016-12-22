@@ -6,5 +6,5 @@ target 'WWAvatarPicker' do
   # use_frameworks!
 
   # Pods for WWAvatarPicker
-  pod 'MBProgressHUD' 
+  pod 'MBProgressHUD', '~> 0.9.2’
 end

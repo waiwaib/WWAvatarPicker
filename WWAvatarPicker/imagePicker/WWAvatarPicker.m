@@ -188,9 +188,9 @@
     {
         MBProgressHUD * progressSuccess = [MBProgressHUD  showHUDAddedTo:[[UIApplication sharedApplication].delegate window]  animated:YES];
         progressSuccess.mode = MBProgressHUDModeText;
-        progressSuccess.label.font = [UIFont systemFontOfSize:13];
-        progressSuccess.label.text = @"相机不能使用";
-        [progressSuccess hideAnimated:YES afterDelay:1];
+        progressSuccess.labelFont = [UIFont systemFontOfSize:13];
+        progressSuccess.labelText = @"相机不能使用";
+        [progressSuccess hide:YES afterDelay:1];
     }
 }
 
@@ -209,9 +209,9 @@
     {
         MBProgressHUD * progressSuccess = [MBProgressHUD  showHUDAddedTo:[[UIApplication sharedApplication].delegate window]  animated:YES];
         progressSuccess.mode = MBProgressHUDModeText;
-        progressSuccess.label.font = [UIFont systemFontOfSize:13];
-        progressSuccess.label.text = @"相机不能使用";
-        [progressSuccess hideAnimated:YES afterDelay:1];
+        progressSuccess.labelFont = [UIFont systemFontOfSize:13];
+        progressSuccess.labelText = @"相机不能使用";
+        [progressSuccess hide:YES afterDelay:1];
     }
 }
 
