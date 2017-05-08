@@ -18,10 +18,6 @@
 /** target Size */
 @property (nonatomic , assign) CGSize targetSize;
 
-
-/** form view controller */
-@property (nonatomic, weak) id formVC;
-
 /** set yes to crop selected image; */
 @property (nonatomic , assign) BOOL shouldCrop;
 

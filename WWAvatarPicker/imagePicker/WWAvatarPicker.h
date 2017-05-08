@@ -24,6 +24,9 @@
 /** pikcer delegate; */
 @property (nonatomic , assign) id<WWAvatarPickerDelegate> delegate;
 
+/** form view controller */
+@property (nonatomic, weak) id formVC;
+
 /**
  *  privide two way to get images,take photo or select at photo album; can set the picker style;
  *
